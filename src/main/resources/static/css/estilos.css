@@ -1,0 +1,250 @@
+/* Esto es un comentario*/
+
+h1,h2{
+    tex-align: center;
+
+}
+h1{
+    background-color: black;
+    color: white;
+}
+
+h2{
+    line-height: 30px;
+    background-color: green;
+    color: yellow;
+    height: 30px;
+    width: 15%;
+}
+
+thead tr {
+    background-color: black;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: grey;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: green;
+}
+
+.copy {
+    copy: var(--copy);
+
+    background: transparent;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+
+    text-align: center;
+    line-height: 1.79em;
+    font-size: 14px;
+
+    letter-spacing: normal;
+
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+}
+
+.contacto {
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+.contacto h2 {
+
+    line-height: 30px;
+    background-color: #FFFF00;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+    width: 28%;
+    text-align: center;
+}
+
+.contacto form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contacto input,
+.contacto textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contacto input[type="submit"] {
+
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contacto input[type="submit"]:hover {
+    background-color: #FFFF00;
+}
+
+.cap {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.cap2 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.cita-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cita-form h4 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.cita-form form {
+    display: grid;
+    gap: 10px;
+}
+
+.cita-form label {
+    font-weight: bold;
+}
+
+.cita-form input[type="text"],
+.cita-form input[type="email"],
+.cita-form input[type="date"],
+.cita-form input[type="time"],
+.cita-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cita-form input[type="submit"] {
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cita-form input[type="submit"]:hover {
+    background-color: #FFFF00;
+}
+
+.facebook-button,
+.whatsapp-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #c3d7f7;
+    color: #234a7c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.whatsapp-button {
+    background-color: #d6f0d1;
+    color: #2d804d;
+}
+
+.facebook-button:hover {
+    background-color: #234a7c;
+    color: #c3d7f7;
+}
+
+.whatsapp-button:hover {
+    background-color: #2d804d;
+    color: #d6f0d1;
+}
+
+.facebook-icon {
+    background-color: #3b5998;
+}
+
+.whatsapp-icon {
+    background-color: #25D366;
+}
+
+.facebook-icon:hover,
+.whatsapp-icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+}
+
+.product img{
+    margin: 0 5px;
+}
+
+.acerca-container {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.acerca-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.acerca-description {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.h2 cap2 {
+    background-color: none;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    
+}
+
